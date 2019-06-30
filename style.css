@@ -1,0 +1,31 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.image-gallery {
+    margin: 200px auto;
+}
+
+.image-gallery .thumbnails-list {
+    list-style-type: none;
+    display: flex;
+
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+    transition: transform .2s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.image-gallery .thumbnails-slider {
+    max-width: 382px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.thumbnail {
+    flex: 0 0 60px;
+    margin: 0 2px;
+}
